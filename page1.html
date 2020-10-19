@@ -50,23 +50,20 @@
             <p>
                 <label>Name</label>
                 <input type = "text"
-                    id = "myText"
+                    id = "name1"
                     value = "Jim" />
             </p>
             <p>
                 <label>Description</label>
-                <textarea id = "myTextArea"
-                    rows = "3"
-                    cols = "80">Why did you borrow money for</textarea>
+                <input type = "text"
+                    id = "desc1"
+                    value = "Description" />
             </p>
             <p>
                 <label>Money Owed</label>
-                <input type="number">
-            </p>
-            <p>
-                <div class="center">
-                    <button type="button">Submit</button>
-                </div>
+                <input type="number"
+                    id="cash1"
+                    value="0">
             </p>
         </fieldset>
     </form>
@@ -77,6 +74,14 @@
         Description: <span id="outputDesc">Blah Blah</span>
         <p></p>
         Amount: $<span id="outputCash">0</span>
+    </div>
+    <h2>View People that you owe you</h2>
+    <div class="myDebt1">
+        Name: <span id="outputName1">Iggi</span>
+        <p></p>
+        Description: <span id="outputDesc1">Blah Blah</span>
+        <p></p>
+        Amount: $<span id="outputCash1">0</span>
     </div>
     <script src="page1.js"></script>
 </body>
